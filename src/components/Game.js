@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import "../assets/css/game.css"
+import "../assets/css/game.css";
 
 const Game = () => {
   const [isGameStarted, setIsGameStarted] = useState(false);
@@ -75,39 +75,43 @@ const Game = () => {
 
   return (
     <>
-      {!isGameStarted && (
-        <div className="d-flex justify-content-center">
-          <button
-            class="btn btn-primary justify-content-center"
-            onClick={() => setIsGameStarted(!isGameStarted)}
-          >
-            Bắt đầu
-          </button>
-        </div>
-      )}
-      {isGameStarted && (
-        <div className="game">
-          <Container>
-            <Row className="d-flex flex-column align-items-center">
-              {board.map((row, i) => (
-                <Col md={2}>
-                  {row.map((cell, j) => (
-                    <Button
-                      key={i * 3 + j}
-                      onClick={() => handleClick(i, j)}
-                      variant="outline-primary"
-                      disabled={cell !== null}
-                      className="btn-caro"
-                    >
-                      {cell}
-                    </Button>
-                  ))}
-                </Col>
-              ))}
-            </Row>
-          </Container>
-        </div>
-      )}
+      <div className="container">
+        <h3 className="d-flex justify-content-center pt-4 pb-2">
+          Game cờ Caro
+        </h3>
+        {!isGameStarted && (
+          <div className="d-flex justify-content-center">
+            <button
+              class="btn btn-primary justify-content-center"
+              onClick={() => setIsGameStarted(!isGameStarted)}
+            >
+              Bắt đầu
+            </button>
+          </div>
+        )}
+
+        {isGameStarted && (
+          <div className="game">
+              <Row className="d-flex flex-column align-items-center">
+                {board.map((row, i) => (
+                  <Col md={2}>
+                    {row.map((cell, j) => (
+                      <Button
+                        key={i * 3 + j}
+                        onClick={() => handleClick(i, j)}
+                        variant="outline-primary"
+                        disabled={cell !== null}
+                        className="btn-caro"
+                      >
+                        {cell}
+                      </Button>
+                    ))}
+                  </Col>
+                ))}
+              </Row>
+          </div>
+        )}
+      </div>
     </>
   );
 };
