@@ -1,70 +1,167 @@
-# Getting Started with Create React App
+<!--
+Hey, thanks for using the awesome-readme-template template.
+If you have any enhancements, then fork this project and create a pull request
+or just open an issue with the label "enhancement".
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Don't forget to give this project a star for additional support ;)
+Maybe you can mention me or this repo in the acknowledgements too
+-->
+<div align="center">
 
-## Available Scripts
+  <img src="./public//tic-tac-toe.png" alt="logo" width="200" height="auto" />
+  <h1>Cyber Tic Tac Toe Game</h1>
+  
+  <p>
+    This is a simple Tic Tac Toe game built using ReactJS. It allows two players to take turns and compete against each other in the classic Tic Tac Toe board. 
+  </p>
+  
+  
+<!-- Badges -->
+<p>
+<a href="https://github.com/luyenhaidangit/cyber-tic-tac-toe-game/graphs/contributors">
+  <img src="https://img.shields.io/github/contributors/luyenhaidangit/cyber-tic-tac-toe-game" alt="contributors" />
+</a>
+<a href="https://github.com/luyenhaidangit/cyber-tic-tac-toe-game/commits/master">
+  <img src="https://img.shields.io/github/last-commit/luyenhaidangit/cyber-tic-tac-toe-game" alt="last update" />
+</a>
+<a href="https://github.com/luyenhaidangit/cyber-tic-tac-toe-game/blob/master/LICENSE">
+  <img src="https://img.shields.io/github/license/luyenhaidangit/cyber-tic-tac-toe-game.svg" alt="license" />
+</a>
+</p>
+   
+<h4>
+  <a href="https://github.com/luyenhaidangit/cyber-tic-tac-toe-game/">Documentation</a>
+  <span> · </span>
+  <a href="https://github.com/luyenhaidangit/cyber-tic-tac-toe-game/issues/">Report Bug</a>
+</h4>
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+<br />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- Table of Contents -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# :notebook_with_decorative_cover: Table of Contents
 
-### `npm test`
+-   [About the Project](#star2-about-the-project)
+    -   [Screenshots](#camera-screenshots)
+    -   [Tech Stack](#space_invader-tech-stack)
+    -   [Features](#dart-features)
+-   [Getting Started](#toolbox-getting-started)
+    -   [Prerequisites](#bangbang-prerequisites)
+    -   [Installation](#gear-installation)
+    -   [Running Tests](#test_tube-running-tests)
+    -   [Run Locally](#running-run-locally)
+    -   [Deployment](#triangular_flag_on_post-deployment)
+-   [License](#warning-license)
+-   [Contact](#handshake-contact)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- About the Project -->
 
-### `npm run build`
+## :star2: About the Project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- Screenshots -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### :camera: Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<div align="center"> 
+  <img src="./public/screen.jpg" alt="screenshot" />
+</div>
 
-### `npm run eject`
+<!-- TechStack -->
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### :space_invader: Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<a href="https://react.dev/">React.js</a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<!-- Features -->
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### :dart: Features
 
-## Learn More
+-   Play 3x3 Tic-Tac-Toe: Users can enjoy playing the classic Tic-Tac-Toe game on a 3x3 grid.
+-   Replay Option: After a game is over, users have the option to play again without having to reload the page or start a new game manually.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- Getting Started -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## :toolbox: Getting Started
 
-### Code Splitting
+<!-- Prerequisites -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### :bangbang: Prerequisites
 
-### Analyzing the Bundle Size
+Before getting started, ensure you have:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+-   **Node.js**: Install Node.js from https://nodejs.org/
+-   **npm**: npm comes bundled with Node.js.
 
-### Making a Progressive Web App
+<!-- Installation -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### :gear: Installation
 
-### Advanced Configuration
+Clone the repository and navigate to the project directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+  git clone https://github.com/luyenhaidangit/cyber-tic-tac-toe-game.git
+```
 
-### Deployment
+<!-- Running Tests -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### :test_tube: Running Tests
 
-### `npm run build` fails to minify
+To run tests, run the following command
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+  npm test
+```
+
+<!-- Run Locally -->
+
+### :running: Run Locally
+
+Clone the repository and navigate to the project directory:
+
+```bash
+  git clone https://github.com/luyenhaidangit/cyber-tic-tac-toe-game.git
+```
+
+Go to the project directory
+
+```bash
+  cd tic-tac-toe-game
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm start
+```
+
+<!-- Deployment -->
+
+### :triangular_flag_on_post: Deployment
+
+To deploy this project run
+
+```bash
+  npm deploy
+```
+
+<!-- License -->
+
+## :warning: License
+
+Distributed under the no License. See LICENSE.txt for more information.
+
+<!-- Contact -->
+
+## :handshake: Contact
+
+Luyện Hải Đăng - [@facebook](https://www.facebook.com/luyenhaidangit) - luyenhaidangit@gmail.com
+
+Project Link: [https://github.com/luyenhaidangit/cyber-tic-tac-toe-game](https://github.com/luyenhaidangit/cyber-tic-tac-toe-game)
